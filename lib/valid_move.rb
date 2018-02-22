@@ -6,7 +6,7 @@
 def valid_move?(board, index)
   if index.between?(0,9)
     true
-  elsif board[index] == nil || board[index] > 9
+  if board[index] == nil || board[index] > 9
     false
   else
   end

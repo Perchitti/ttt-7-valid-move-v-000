@@ -2,7 +2,7 @@
 def valid_move? (board, index)
 if board[index] == " " || board[index] == "" || board[index] == nil || board[index] > 9
   false
-else board[index] == index.between?(1,9)
+elsif index.between?(1,9)
   true
 end
 end
